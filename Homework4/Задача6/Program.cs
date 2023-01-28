@@ -14,3 +14,27 @@ int[] FillArray(int size, int min, int max)
     }
     return array;
 }
+int[] GetPairProduct(int[] data)
+{
+    int[] product = new int[data.Length / 2];
+    int last = data.Length - 1;
+    for (int i = 0; i < data.Length / 2; i++)
+    {
+        product[i] = data[i] * data[last];
+        last = last - 1;
+    }
+    return product;
+}
+void PrintArray(int[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write(arr[i] + " ");
+    }
+    Console.WriteLine();
+}
+int[] array = FillArray(size, min, max);
+PrintArray(array);
+Console.WriteLine();
+Console.WriteLine("Первый вариант:");
+PrintArray(GetPairProduct(array));

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\svbur\\OneDrive\\Рабочий стол\\seminar3\\C-Sharp\\Homework4\\Задача6\\Задача6.csproj",
+      "projectUniqueName": "C:\\Users\\svbur\\OneDrive\\Рабочий стол\\seminar4\\C-Sharp\\Homework4\\Задача6\\Задача6.csproj",
       "projectName": "Задача6",
-      "projectPath": "C:\\Users\\svbur\\OneDrive\\Рабочий стол\\seminar3\\C-Sharp\\Homework4\\Задача6\\Задача6.csproj",
+      "projectPath": "C:\\Users\\svbur\\OneDrive\\Рабочий стол\\seminar4\\C-Sharp\\Homework4\\Задача6\\Задача6.csproj",
       "packagesPath": "C:\\Users\\svbur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\svbur\\OneDrive\\Рабочий стол\\seminar3\\C-Sharp\\Homework4\\Задача6\\obj\\",
+      "outputPath": "C:\\Users\\svbur\\OneDrive\\Рабочий стол\\seminar4\\C-Sharp\\Homework4\\Задача6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\svbur\\AppData\\Roaming\\NuGet\\NuGet.Config"
