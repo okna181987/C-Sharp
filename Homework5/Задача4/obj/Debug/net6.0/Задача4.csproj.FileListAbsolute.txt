@@ -1,0 +1,15 @@
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\Задача4.csproj.AssemblyReference.cache
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\Задача4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\Задача4.AssemblyInfoInputs.cache
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\Задача4.AssemblyInfo.cs
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\Задача4.csproj.CoreCompileInputs.cache
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\bin\Debug\net6.0\Задача4.exe
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\bin\Debug\net6.0\Задача4.deps.json
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\bin\Debug\net6.0\Задача4.runtimeconfig.json
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\bin\Debug\net6.0\Задача4.dll
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\bin\Debug\net6.0\Задача4.pdb
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\Задача4.dll
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\refint\Задача4.dll
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\Задача4.pdb
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\Задача4.genruntimeconfig.cache
+C:\Users\svbur\OneDrive\Рабочий стол\seminar4\C-Sharp\Homework5\Задача4\obj\Debug\net6.0\ref\Задача4.dll
