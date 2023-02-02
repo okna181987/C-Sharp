@@ -3,3 +3,13 @@ C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Зад
 C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\obj\Debug\net6.0\Задача1.AssemblyInfoInputs.cache
 C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\obj\Debug\net6.0\Задача1.AssemblyInfo.cs
 C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\obj\Debug\net6.0\Задача1.csproj.CoreCompileInputs.cache
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\bin\Debug\net6.0\Задача1.exe
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\bin\Debug\net6.0\Задача1.deps.json
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\bin\Debug\net6.0\Задача1.runtimeconfig.json
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\bin\Debug\net6.0\Задача1.dll
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\bin\Debug\net6.0\Задача1.pdb
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\obj\Debug\net6.0\Задача1.dll
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\obj\Debug\net6.0\refint\Задача1.dll
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\obj\Debug\net6.0\Задача1.pdb
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\obj\Debug\net6.0\Задача1.genruntimeconfig.cache
+C:\Users\svbur\OneDrive\Рабочий стол\seminar\C-Sharp\Homework6\Задача1\obj\Debug\net6.0\ref\Задача1.dll
