@@ -1,55 +1,40 @@
-﻿// В прямоугольной матрице найти строку с наименьшей суммой элементов.
+﻿// Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 
-int[,] GetMatrix(int row, int col, int min, int max)
-{
-    int[,] array = new int[row, col];
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
+int rows, columns;
+rows = columns = int.MaxValue; 
+Random rnd = new Random();
+rows = rnd.Next(2, 20); 
+columns = rnd.Next(2, 20);
+Console.WriteLine($"Random parameters of the array: rows = {rows}, columns = {columns}\n");
+double[,] array = new double[rows, columns];
+FillArray2(array);
+PrintArray2(array); 
+Console.WriteLine(new string('_', 10 * columns));
+Console.WriteLine("");
+SortArray2(array);
+Console.WriteLine("The array with the rows ordered in descending order: \n");
+Console.ForegroundColor = ConsoleColor.Green; 
+PrintArray2(array);
+Console.ResetColor();
+Console.ReadKey();
+void FillArray2(double[,] matrix2)
+{ for (int i = 0; i < matrix2.GetLength(0); i++)
+ for (int j = 0; j < matrix2.GetLength(1); j++)
+ matrix2[i, j] = Math.Round((rnd.NextDouble() * 200 - 100), 2); 
+}      
+void PrintArray2(double[,] matrix2)
+{for (int i = 0; i < matrix2.GetLength(0); i++)
         {
-            array[i, j] = new Random().Next(min, max);
-        }
-    }
-    return array;
+            for (int j = 0; j < matrix2.GetLength(1); j++)
+ Console.Write("{0, 10}", (array[i, j]).ToString("0.00"));
+ Console.WriteLine("\n");
+        } 
+ Console.WriteLine();
 }
-int rowNumber(int[,] array)
-{
-    int index = 0;
-    int sum = 0;
-    int result = 0;
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        sum = 0;
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            sum += array[i, j];
-        }
-        if (i == 0) result = sum;
-        else if (sum < result)
-        {
-            result = sum;
-            index = i;
-        }
-    }
-    return index;
+void SortArray2(double[,] matrix2)
+{for (int i = 0; i < matrix2.GetLength(0); i++)
+ for (int j = 0; j < matrix2.GetLength(1) - 1; j++)
+ for (int k = 0; k < matrix2.GetLength(1) - 1; k++)
+ if (matrix2[i, k] < matrix2[i, k + 1]) 
+ (matrix2[i, k], matrix2[i, k + 1]) = (matrix2[i, k + 1], matrix2[i, k]);
 }
-void PrintMatrix(int[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            Console.Write(array[i, j] + "  ");
-        }
-        Console.WriteLine();
-    }
-}
-int row = 5;
-int col = 12;
-int min = 1;
-int max = 50;
-int[,] matrix = GetMatrix(row, col, min, max);
-PrintMatrix(matrix);
-Console.WriteLine("---");
-int index = rowNumber(matrix);
-Console.WriteLine(index);
